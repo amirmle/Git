@@ -1,0 +1,4 @@
+git ignore
+touch .gitignore 
+then commit this file
+open .gitignore and write whatever U want to git ignore it

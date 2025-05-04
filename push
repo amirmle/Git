@@ -1,0 +1,6 @@
+git push git@github.com:amirmle/[rep-name].git [branchname]
+
+git remote add [origin/nickname] git@github.com:amirmle/[rep-name].git 
+git remote -v
+# remote info
+git push [nickname] [branchname]

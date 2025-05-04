@@ -1,0 +1,3 @@
+git log
+git log --oneline # short info
+git log --stat # expanded info

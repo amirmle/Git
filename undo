@@ -1,0 +1,14 @@
+git checkout <commit-number> # just to see the proj what did looks like back then
+# can save changes by go to master branch (changes will disappear), then git gives U a commit number that U can create new branch with the branch number)
+git checkout master # turn back to original last commit
+
+git revert <commit-number>
+# it does not delete files, just erase effect of files. can revert a revert. its usefull just for recent changes. 
+git revert --abort # abort changes from revert.
+
+git reset <commit-number> --soft
+# delete commit not files, makes files stage and from there U can commit or delete files
+git reset <commit-number> --mixed
+# delete commits and unstage files, does not delete files
+git reset <commit-number> --hard
+# delete commits and files

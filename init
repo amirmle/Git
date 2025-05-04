@@ -1,0 +1,6 @@
+git config --list
+git config [--global] user.name "amir"
+git config [--global] user.email "amir@gmail.com"
+# --global makes this config global, without that it will be for that ptoj
+
+git init
