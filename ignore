@@ -2,3 +2,18 @@ git ignore
 touch .gitignore 
 then commit this file
 open .gitignore and write whatever U want to git ignore it
+
+### If you have "git add" a file and later add it to .gitignore, Git will still track it.
+solution? 
+  git rm --chached <file>
+  or 
+  git rm -r --cheched .
+  git add .
+  git commit - m "Apply .gitignore"
+###
+
+### patterns 
+  *.log            all files with .log postfix
+  temp/            temp directory 
+  /config.json      just config.json in roots
+###
