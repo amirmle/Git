@@ -3,7 +3,8 @@ git branch <branch-name> # create new branch
 git branch -b <branch-name> # create new branch and login in it
 git checkout <branch-name>  # change branch
 
-git merge <branch-name> # merge branch to master
+git merge <branch> # merge <branch> to current branch - current branch will change
+
 git branch -m <branch-name> <new-name> # change branch name
 git branch -m <name> # rename current branch
 git branch -d <branch-name> # delete branch if U merged that
