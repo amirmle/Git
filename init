@@ -1,6 +1,13 @@
 git config --list
 git config [--global] user.name "amir"
 git config [--global] user.email "amir@gmail.com"
-# --global makes this config global, without that it will be for that ptoj
+# --global makes this config global, without that it will be for that proj
 
 git init
+git clone <url>
+
+# change default branch name for all new repositories
+git config --global init.defaultBranch <name>
+
+# rename just-created branch
+git branch -m <name>
