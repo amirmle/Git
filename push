@@ -1,6 +1,31 @@
+Remote
+1. HTTPS 
+git remote add origin <url>
+
+2.SSH
+  I. check do U have SSH key
+      ls ~./.ssh
+  II. if U not, create one
+      ssh-keygen -t rsa -b 4096 -C
+      # just press Enter and dont enter password
+  III. copy public key
+      cat ~/.ssh/id_rsa.pub
+  IV. go to Github and paste public key there
+      github.com/setting/keys
+      click on New SSH key and paste public key
 git push git@github.com:amirmle/[rep-name].git [branchname]
 
 git remote add [origin/nickname] git@github.com:amirmle/[rep-name].git 
-git remote -v
-# remote info
-git push [nickname] [branchname]
+git remote -v # remote info
+git remote remove origin
+
+
+git push [nickname] [branchname] # first push
+git push # laters push
+git push origin <branch> # special branch 
+
+get fetch # just get files without merge
+get merge origin/master # if U want merge fetched files - merge branch named master from remote named origin to my local branch
+
+git pull # git fetch + git merge
+
