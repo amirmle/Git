@@ -1,3 +1,5 @@
+git checkout -- <file> # restor changed and unstaged files. deletes unstaged changes permanently
+
 git checkout <commit-number> # just to see the proj what did looks like back then
 # can save changes by go to master branch (changes will disappear), then git gives U a commit number that U can create new branch with the branch number)
 git checkout master # turn back to original last commit
