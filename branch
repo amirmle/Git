@@ -5,5 +5,6 @@ git checkout <branch-name>  # change branch
 
 git merge <branch-name> # merge branch to master
 git branch -m <branch-name> <new-name> # change branch name
+git branch -m <name> # rename current branch
 git branch -d <branch-name> # delete branch if U merged that
 git branch -D <branch-name> # delete branch if U do not want to merged that
