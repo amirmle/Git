@@ -3,3 +3,4 @@ git add <file>
 git add . #add all changed files
 git commit -m "message"
 git restore --staged <file> # restore from stage
+git checkout -- <file> # restor changed and unstaged files. deletes unstaged changes permanently
