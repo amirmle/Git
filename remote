@@ -4,7 +4,7 @@ git remote add origin <url>
 
 2.SSH
   I. check do U have SSH key
-      ls ~./.ssh
+      ls ~/.ssh
   II. if U not, create one
       ssh-keygen -t rsa -b 4096 -C
       # just press Enter and dont enter password
